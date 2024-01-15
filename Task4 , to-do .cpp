@@ -52,8 +52,8 @@ int main() {
             case 1: {
                 string task;
                 cout << "Enter the task: ";
-				    cin.ignore();  // Clear buffer
-getline(std::cin, task);
+		cin.ignore();  // Clear buffer
+                getline(std::cin, task);
                 todoList.addTask(task);
                 break;
             }
